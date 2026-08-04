@@ -13,7 +13,7 @@ export default function Home() {
       <h1>Website is under construction</h1>
       <h1>I am very slow at this :(</h1>
       <h1>================================</h1>
-      <h1>Test commit</h1>
+      <h1>Test commit2</h1>
     </>
   );
 }
