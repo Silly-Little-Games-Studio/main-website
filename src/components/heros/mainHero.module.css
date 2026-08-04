@@ -1,0 +1,82 @@
+.mainHero {
+  display: flex;
+  background-color: #170c28;
+
+  background-image: url("/Images/TestWireframe7.png");
+  background-position-x: -146px;
+  background-position-y: -27px;
+  background-size: 2187px;
+
+  padding-left: 430px;
+  padding-right: 430px;
+
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  height: 100vh;
+}
+
+.main1Content {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 32px;
+}
+
+.mainLogo {
+  background-image: url("/Images/OldLogoMini.png");
+  background-size: 100px;
+  background-position: center;
+  width: 110px;
+  height: 110px;
+  background-color: #e7ecef;
+  border-radius: 360px;
+}
+
+.logoText {
+  font-size: 96px;
+  font-family: "PixelifySans", PixelifySans-Regular;
+  font-weight: 700;
+  text-align: center;
+  color: #fdf7ef;
+  text-shadow:
+    4px 4px 0px #ff8b4c,
+    8px 8px 0px #e06fd124;
+}
+
+.socialsHolder {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.currentProject {
+  background-color: #2a1a42;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 22px;
+}
+
+.currentProjectText {
+  padding: 32px;
+  gap: 14px;
+  width: 450px;
+}
+
+.currentProjectImage {
+  background-image: url("/Images/hexaDronesColourshiftGameplay.png");
+  background-size: 600px;
+  flex: 1;
+  height: 100%;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+}
