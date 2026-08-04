@@ -22,4 +22,24 @@ body {
 @font-face {
   font-family: "Silkscreen";
   src: url("/fonts/Silkscreen-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Silkscreen";
+  src: url("/fonts/Silkscreen-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 54px;
+  font-family: "PixelifySans", PixelifySans-Regular;
+  color: #f2eafc;
+  margin: 0%;
+}
+
+h2 {
+  font-size: 17px;
+  font-family: "Nunito", Nunito-Regular;
+  color: #b3a4cc;
 }

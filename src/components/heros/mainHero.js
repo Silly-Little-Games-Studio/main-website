@@ -7,25 +7,103 @@ export const MainHero = ({ takeRef }) => {
         <div className={styles.main1Content}>
           <text className={styles.logoText}>SILLY LITTLE GAMES STUDIO</text>
           <div className={styles.socialsHolder}>
-            <h5>Github</h5>
-            <h5>Steam</h5>
-            <h5>Itch</h5>
-            <h5>Discord</h5>
-            <h5>Twitter</h5>
-            <h5>Instagram</h5>
-            <h5>Youtube</h5>
+            <a
+              href="https://github.com/Silly-Little-Games-Studio"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div
+                className={styles.socialIcon}
+                style={{ backgroundImage: 'url("/Images/socials/github.png")' }}
+              ></div>
+            </a>
+            <a
+              href="https://store.steampowered.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div
+                className={styles.socialIcon}
+                style={{ backgroundImage: 'url("/Images/socials/steam.png")' }}
+              ></div>
+            </a>
+            <a
+              href="https://silly-little-games-studio.itch.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div
+                className={styles.socialIcon}
+                style={{
+                  backgroundImage: 'url("/Images/socials/itch.io.png")',
+                }}
+              ></div>
+            </a>
+            <a
+              href="https://discord.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div
+                className={styles.socialIcon}
+                style={{
+                  backgroundImage: 'url("/Images/socials/discord.png")',
+                }}
+              ></div>
+            </a>
+            <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
+              <div
+                className={styles.socialIcon}
+                style={{
+                  backgroundImage: 'url("/Images/socials/twitter.png")',
+                }}
+              ></div>
+            </a>
+            <a
+              href="https://www.instagram.com/?hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div
+                className={styles.socialIcon}
+                style={{
+                  backgroundImage: 'url("/Images/socials/instagram.png")',
+                }}
+              ></div>
+            </a>
+            <a
+              href="https://www.youtube.com/@SillyLittleGamesStudio/featured"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div
+                className={styles.socialIcon}
+                style={{
+                  backgroundImage: 'url("/Images/socials/youtube.png")',
+                }}
+              ></div>
+            </a>
           </div>
           <div className={styles.currentProject}>
             <div className={styles.currentProjectText}>
-              <h2>Current Project: HexaDrones Colourshift</h2>
-              <h3>
+              <h1 style={{ fontSize: "34px" }}>
+                Current Project: HexaDrones Colourshift
+              </h1>
+              <h2>
                 HexaDrones Colourshift is a reboot and full fledged version of
                 our best game jam submission. Fly around and unlock power ups
                 and fight waves of enemies in this hexagon themed arcade
                 shooter!
-              </h3>
-              <h2>Steam page pending...</h2>
-              <h2>Itch.io page pending...</h2>
+              </h2>
+              <div className={styles.currentProjectStoreButton}>
+                Steam page pending...
+              </div>
+              <div className={styles.currentProjectStoreButton}>
+                Steam page pending...
+              </div>
+              <div className={styles.currentProjectDevlogButton}>
+                Read the dev log!
+              </div>
             </div>
             <div className={styles.currentProjectImage}></div>
           </div>
