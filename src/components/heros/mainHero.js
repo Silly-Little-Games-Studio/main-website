@@ -14,7 +14,9 @@ export const MainHero = ({ takeRef }) => {
             >
               <div
                 className={styles.socialIcon}
-                style={{ backgroundImage: 'url("/Images/socials/github.png")' }}
+                style={{
+                  backgroundImage: 'url("/Images/socialIcons/github.png")',
+                }}
               ></div>
             </a>
             <a
@@ -24,7 +26,9 @@ export const MainHero = ({ takeRef }) => {
             >
               <div
                 className={styles.socialIcon}
-                style={{ backgroundImage: 'url("/Images/socials/steam.png")' }}
+                style={{
+                  backgroundImage: 'url("/Images/socialIcons/steam.png")',
+                }}
               ></div>
             </a>
             <a
@@ -35,7 +39,7 @@ export const MainHero = ({ takeRef }) => {
               <div
                 className={styles.socialIcon}
                 style={{
-                  backgroundImage: 'url("/Images/socials/itch.io.png")',
+                  backgroundImage: 'url("/Images/socialIcons/itch.io.png")',
                 }}
               ></div>
             </a>
@@ -47,7 +51,7 @@ export const MainHero = ({ takeRef }) => {
               <div
                 className={styles.socialIcon}
                 style={{
-                  backgroundImage: 'url("/Images/socials/discord.png")',
+                  backgroundImage: 'url("/Images/socialIcons/discord.png")',
                 }}
               ></div>
             </a>
@@ -55,7 +59,7 @@ export const MainHero = ({ takeRef }) => {
               <div
                 className={styles.socialIcon}
                 style={{
-                  backgroundImage: 'url("/Images/socials/twitter.png")',
+                  backgroundImage: 'url("/Images/socialIcons/twitter.png")',
                 }}
               ></div>
             </a>
@@ -67,7 +71,7 @@ export const MainHero = ({ takeRef }) => {
               <div
                 className={styles.socialIcon}
                 style={{
-                  backgroundImage: 'url("/Images/socials/instagram.png")',
+                  backgroundImage: 'url("/Images/socialIcons/instagram.png")',
                 }}
               ></div>
             </a>
@@ -79,7 +83,7 @@ export const MainHero = ({ takeRef }) => {
               <div
                 className={styles.socialIcon}
                 style={{
-                  backgroundImage: 'url("/Images/socials/youtube.png")',
+                  backgroundImage: 'url("/Images/socialIcons/youtube.png")',
                 }}
               ></div>
             </a>
