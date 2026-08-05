@@ -5,6 +5,14 @@ export const MainHero = ({ takeRef }) => {
     <>
       <div className={styles.mainHero}>
         <div className={styles.main1Content}>
+          <h1
+            style={{
+              color: "#ff64ff",
+              borderBottom: "10px dashed white",
+            }}
+          >
+            Website is under construction
+          </h1>
           <text className={styles.logoText}>SILLY LITTLE GAMES STUDIO</text>
           <div className={styles.socialsHolder}>
             <a

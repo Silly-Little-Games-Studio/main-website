@@ -44,6 +44,7 @@ h2 {
   font-family: "Nunito", Nunito-Regular;
   font-weight: 400;
   color: #b3a4cc;
+  margin: 0%;
 }
 
 HeroSection {
@@ -52,6 +53,7 @@ HeroSection {
   padding-left: 25vw;
   padding-right: 25vw;
 
+  gap: 32px;
   display: flex;
   flex-direction: column;
 }

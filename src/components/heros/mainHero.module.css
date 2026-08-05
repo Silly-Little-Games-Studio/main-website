@@ -2,10 +2,7 @@
   display: flex;
   background-color: #170c28;
 
-  background-image: url("/Images/TestWireframe7.png");
-  background-position-x: -146px;
-  background-position-y: -27px;
-  background-size: 2187px;
+  background-image: url("/Images/GunWireFrame.png");
 
   padding-left: 25vw;
   padding-right: 25vw;
