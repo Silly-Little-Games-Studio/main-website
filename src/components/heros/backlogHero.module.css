@@ -1,5 +1,46 @@
-#itemContainer {
+.itemContainer {
   display: flex;
   flex-direction: row;
   gap: 16px;
+  flex: 1;
+}
+
+.backLogArticle {
+  background-color: #2a1a42;
+  width: 250px;
+  height: 300px;
+  border-radius: 18px;
+  border: 2px solid #f2eafc24;
+  overflow: hidden;
+}
+
+.articleImage {
+  display: flex;
+  flex: 1;
+  height: 50%;
+  background-color: rgb(195, 0, 255);
+  box-shadow: 0 2px 0 #f2eafc24;
+}
+
+.articleText {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.articleName {
+  font-size: 24px;
+  font-family: "PixelifySans", PixelifySans-Regular;
+  font-weight: 700;
+  color: #f2eafc;
+  margin: 0%;
+}
+
+.articleType {
+  font-size: 17px;
+  font-family: "Nunito", Nunito-Regular;
+  font-weight: 700;
+  color: #b3a4cc;
+  margin: 0%;
 }

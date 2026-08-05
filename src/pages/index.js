@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Header />
       <MainHero />
-      <BackLogHero />
+      <BackLogHero id="Portfolio" />
       <h1>test again!</h1>
       {/*
       <h1>================================</h1>

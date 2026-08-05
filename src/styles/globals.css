@@ -1,5 +1,6 @@
 html {
   background-color: #1d1130;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -41,6 +42,7 @@ h1 {
 h2 {
   font-size: 17px;
   font-family: "Nunito", Nunito-Regular;
+  font-weight: 400;
   color: #b3a4cc;
 }
 
@@ -58,4 +60,9 @@ heroHeading {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
