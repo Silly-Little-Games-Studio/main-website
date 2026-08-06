@@ -8,3 +8,21 @@
  *
  * See LICENSE.txt for full terms.
  */
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  background-image: url("/Images/OldLogoMini.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  background-color: #e7ecef;
+  border-radius: 360px;
+}
+
+.copywrite {
+  font-family: "Silkscreen", Silkscreen-Regular;
+  font-size: 15px;
+  color: #8fb7e6;
+}

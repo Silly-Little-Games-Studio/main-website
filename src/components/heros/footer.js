@@ -17,12 +17,36 @@ export const Footer = ({ id }) => {
       <heroSection
         style={{
           backgroundColor: "#170c28",
+          backgroundImage: "url(/Images/GodotWireFrame.png)",
+          backgroundPosition: "left bottom",
+          backgroundRepeat: "no-repeat",
+          alignItems: "center",
+          gap: "10px",
         }}
       >
         <section id={id} />
-        <heroHeading>
-          <h1>Temp footer</h1>
-        </heroHeading>
+
+        <div className={styles.logo}></div>
+        <div className={styles.copywrite}>
+          © 2026 Silly Little Games Studio LTD
+        </div>
+        <h2
+          style={{
+            textAlign: "center",
+          }}
+        >
+          123 Real Street - Building 99
+          <br />
+          London G6G 9WP United Kingdom
+        </h2>
+        <h2
+          style={{
+            textAlign: "center",
+            color: "#FF8B4C",
+          }}
+        >
+          contact@sillylittlegames.studio
+        </h2>
       </heroSection>
     </>
   );
