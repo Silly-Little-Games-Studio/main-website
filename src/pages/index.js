@@ -14,7 +14,7 @@ export default function Home() {
       <MainHero />
       <BackLogHero id="Portfolio" />
       <Manifesto id="Manifesto" />
-      <MeetTheTeam id="MeetTheTeam" />
+      <MeetTheTeam id="Team" />
       <Blog id="Blog" />
       <Contact id="Contact" />
       <Footer id="Footer" />

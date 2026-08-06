@@ -1,0 +1,37 @@
+.articleHolder {
+  display: flex;
+  gap: 18px;
+}
+
+.articleItem {
+  display: flex;
+  flex-direction: column;
+  background-image: url("/Images/TeamArticle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 250px;
+  height: 350px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 8px;
+  padding-right: 8px;
+  gap: 16px;
+  justify-self: center;
+  align-items: center;
+}
+
+.articleImage {
+  width: 180px;
+  height: 180px;
+  border-radius: 360px;
+  background-position: center;
+  background-size: 180px;
+  border: 2px solid #b3a4cc6c;
+}
+
+.articleLink {
+  font-family: "Silkscreen", Silkscreen-Regular;
+  font-size: 15px;
+  color: #8fb7e6;
+  text-decoration: underline;
+}
