@@ -37,6 +37,7 @@ h1 {
   font-family: "PixelifySans", PixelifySans-Regular;
   color: #f2eafc;
   margin: 0%;
+  width: fit-content;
 }
 
 h2 {
@@ -45,6 +46,7 @@ h2 {
   font-weight: 400;
   color: #b3a4cc;
   margin: 0%;
+  display: flex;
 }
 
 HeroSection {
