@@ -18,9 +18,32 @@ import { Blog } from "@/components/heros/blog";
 import { Contact } from "@/components/heros/contact";
 import { Footer } from "@/components/heros/footer";
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "SillyLittleGamesStudio",
+  alternateName: "Silly Little Games Studio",
+  url: "https://sillylittlegames.studio",
+  logo: "https://sillylittlegames.studio/Images/OldLogoMini.png",
+  description: "Independent game development studio.",
+  sameAs: [
+    "https://silly-little-games-studio.itch.io/",
+    "https://www.youtube.com/@SillyLittleGamesStudio",
+    "https://github.com/Silly-Little-Games-Studio",
+    "https://x.com/SillyLittleGS",
+    "https://www.instagram.com/silly.little.games.studio/?hl=en",
+    "https://steamcommunity.com/id/SillyLittleGamesStudio/",
+    "https://www.linkedin.com/company/silly-little-games-studio/",
+  ],
+};
+
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
       <Header />
       <MainHero />
       <BackLogHero id="Portfolio" />

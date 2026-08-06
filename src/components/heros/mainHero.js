@@ -31,7 +31,7 @@ export const MainHero = ({ takeRef }) => {
               ></div>
             </a>
             <a
-              href="https://store.steampowered.com/"
+              href="https://steamcommunity.com/id/SillyLittleGamesStudio/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -66,7 +66,11 @@ export const MainHero = ({ takeRef }) => {
                 }}
               ></div>
             </a>
-            <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://x.com/SillyLittleGS"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div
                 className={styles.socialIcon}
                 style={{
@@ -75,7 +79,7 @@ export const MainHero = ({ takeRef }) => {
               ></div>
             </a>
             <a
-              href="https://www.instagram.com/?hl=en"
+              href="https://www.instagram.com/silly.little.games.studio/?hl=en"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -87,7 +91,7 @@ export const MainHero = ({ takeRef }) => {
               ></div>
             </a>
             <a
-              href="https://www.youtube.com/@SillyLittleGamesStudio/featured"
+              href="https://www.youtube.com/@SillyLittleGamesStudio"
               target="_blank"
               rel="noopener noreferrer"
             >
