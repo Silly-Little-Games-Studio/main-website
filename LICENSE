@@ -1,23 +1,46 @@
-Copyright © 2026 Silly Little Games Studio LTD
+Copyright © 2026 Silly Little Games Studio LTD. All rights reserved.
+
+Source-Available Reference Licence
 
 Permission is granted to view and reference the source code of this website
-for educational, research, and personal learning purposes.
+for educational, research, and personal learning purposes only.
 
-You may copy portions of the source code for private, non-commercial
-reference and study.
+You may copy limited portions of the source code solely for private,
+non-commercial reference and study.
 
 You may not:
-- redistribute, publish, sell, or share copies of this source code;
-- modify, adapt, or create derivative versions of this source code for
-  distribution;
-- use this source code or substantial portions of it to create another
-  website, product, or service;
-- claim ownership of the source code or derivative works.
+- redistribute, publish, upload, sell, sublicense, or share copies of this
+  source code;
+- modify, adapt, translate, reverse engineer, or create derivative works
+  based on this source code for distribution;
+- use this source code or substantial portions of it to create, operate, or
+  contribute to another website, product, application, or service;
+- claim ownership of this source code or any derivative work based upon it.
 
-The website, its design, code, content, branding, and associated materials
-remain the intellectual property of Silly Little Games Studio LTD.
+The website, including its source code, design, layout, content, branding,
+graphics, and associated materials, remains the exclusive intellectual
+property of Silly Little Games Studio LTD.
 
-Commercial use requires prior written permission.
+No rights are granted to use the Silly Little Games Studio LTD name,
+trademarks, logos, branding, images, or other business assets.
 
-This licence does not grant any rights to trademarks, logos, images,
-content, or other business assets belonging to Silly Little Games Studio LTD.
+Commercial use of this source code requires prior written permission from
+Silly Little Games Studio LTD.
+
+AI Training and Machine Learning Restriction
+
+You may not use this source code, in whole or in part, for the purpose of
+training, fine-tuning, evaluating, testing, improving, or developing any
+artificial intelligence system, machine learning model, neural network,
+automated code-generation system, or similar technology without prior
+written permission from Silly Little Games Studio LTD.
+
+This restriction includes:
+- using this source code as training data;
+- including this source code in datasets or collections intended for AI
+  model development;
+- automated scraping, extraction, or collection of this source code for
+  machine learning purposes.
+
+The permissions granted by this licence do not include any rights not
+expressly stated above.
