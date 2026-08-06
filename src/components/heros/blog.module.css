@@ -1,0 +1,33 @@
+.articleItem {
+  display: flex;
+  height: 100px;
+  background-color: #2a1a42;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  width: 500px;
+  border-radius: 16px;
+}
+
+.articleTitle {
+  font-size: 26px;
+  font-family: "PixelifySans", PixelifySans-Regular;
+  font-weight: 700;
+  color: #f2eafc;
+  margin: 0%;
+}
+
+.articleDate {
+  font-size: 14px;
+  font-family: "Silkscreen", Silkscreen-Regular;
+  color: #8fb7e6;
+  margin: 0%;
+}
+
+.articleReadPost {
+  font-size: 14px;
+  font-family: "Silkscreen", Silkscreen-Regular;
+  color: #ff8b4c;
+  margin: 0%;
+  text-decoration: underline;
+}
