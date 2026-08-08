@@ -1,12 +1,7 @@
 /*
- * Copyright © 2026 Silly Little Games Studio LTD
- *
- * This source code is provided for viewing and reference purposes only.
- * Redistribution, modification, commercial reuse, or use for AI training,
- * machine learning, automated code-generation systems, or similar purposes
- * is not permitted without prior written permission.
- *
- * See LICENSE.txt for full terms.
+// Copyright © 2026 Silly Little Games Studio LTD
+// SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
+// See LICENSE file in the project root for full license text.
  */
 
 import styles from "./backlogHero.module.css";
