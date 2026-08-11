@@ -30,9 +30,9 @@ export const Footer = ({ id }) => {
             textAlign: "center",
           }}
         >
-          123 Real Street - Building 99
+          167-169 Great Portland Street 5th Floor
           <br />
-          London G6G 9WP United Kingdom
+          London W1W 5PF United Kingdom
         </h2>
         <h2
           style={{
