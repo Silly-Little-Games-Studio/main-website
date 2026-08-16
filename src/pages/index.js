@@ -4,6 +4,7 @@
 // See LICENSE file in the project root for full license text.
  */
 
+import Head from "next/head";
 import { Header } from "@/components/header/header";
 import { MainHero } from "@/components/heros/mainHero";
 import { BackLogHero } from "@/components/heros/backLogHero";
@@ -35,6 +36,29 @@ const organizationSchema = {
 export default function Home() {
   return (
     <>
+      <head>
+        <title>Silly Little Games Studio | Indie Game Studio</title>
+        <meta
+          name="description"
+          content="Silly Little Games Studio is an independent game development studio in London, UK, currently working on HexaDrones Colourshift — a hexagon-themed arcade shooter."
+        />
+        <link rel="canonical" href="https://www.sillylittlegames.studio/" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Silly Little Games Studio | Indie Game Studio"
+        />
+        <meta
+          property="og:description"
+          content="Independent game development studio in London, currently working on HexaDrones Colourshift."
+        />
+        <meta
+          property="og:url"
+          content="https://www.sillylittlegames.studio/"
+        />
+        <meta property="og:site_name" content="Silly Little Games Studio" />
+        <meta property="og:locale" content="en_GB" />
+      </head>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
