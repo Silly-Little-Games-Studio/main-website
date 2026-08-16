@@ -36,7 +36,7 @@ const organizationSchema = {
 export default function Home() {
   return (
     <>
-      <head>
+      <Head>
         <title>Silly Little Games Studio | Indie Game Studio</title>
         <meta
           name="description"
@@ -58,7 +58,7 @@ export default function Home() {
         />
         <meta property="og:site_name" content="Silly Little Games Studio" />
         <meta property="og:locale" content="en_GB" />
-      </head>
+      </Head>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
