@@ -35,9 +35,12 @@ export const MeetTheTeam = ({ id }) => {
             <h2
               style={{
                 height: "50px",
+                textAlign: "center",
               }}
             >
-              Director And Lead Dev
+              Company Director
+              <br />
+              Lead Developer
             </h2>
             <a
               href="https://www.jackgravil.dev/"
@@ -70,9 +73,12 @@ export const MeetTheTeam = ({ id }) => {
             <h2
               style={{
                 height: "50px",
+                textAlign: "center",
               }}
             >
-              Contracted Lead 3D Artist
+              Contracted Lead
+              <br />
+              3D Artist
             </h2>
             <a
               href="https://www.artstation.com/redforgecreates"
@@ -104,6 +110,7 @@ export const MeetTheTeam = ({ id }) => {
             <h2
               style={{
                 height: "50px",
+                textAlign: "center",
               }}
             >
               Social Media Manager
@@ -112,6 +119,43 @@ export const MeetTheTeam = ({ id }) => {
             </h2>
             <a
               href="https://www.linkedin.com/in/angel-kneppers-183a58299/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.articleLink}
+            >
+              Website
+            </a>
+          </div>
+          <div className={styles.articleItem}>
+            <div
+              style={{
+                backgroundImage: "url(/Images/teamPfp/KotyPfp.jpg)",
+                backgroundPosition: "centre",
+                backgroundRepeat: "no-repeat",
+                backgroundSize:
+                  "200px" /*Have to force this size cuz weird image size? Get person to give better pfp*/,
+              }}
+              className={styles.articleImage}
+            ></div>
+            <h1
+              style={{
+                fontSize: "24px",
+              }}
+            >
+              Koty
+            </h1>
+            <h2
+              style={{
+                height: "50px",
+                textAlign: "center",
+              }}
+            >
+              Contracted Lead
+              <br />
+              Concept Artist
+            </h2>
+            <a
+              href="https://www.artstation.com/creatureu"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.articleLink}
